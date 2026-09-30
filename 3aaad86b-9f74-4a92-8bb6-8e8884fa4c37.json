@@ -1,0 +1,104 @@
+{
+  "id": "3aaad86b-9f74-4a92-8bb6-8e8884fa4c37",
+  "name": "Sample REST API",
+  "description": "Default sample collection featuring standard REST calls (JSONPlaceholder).",
+  "folders": [
+    {
+      "id": "users-folder",
+      "name": "Users API",
+      "parentFolderId": null
+    },
+    {
+      "id": "posts-folder",
+      "name": "Posts API",
+      "parentFolderId": null
+    }
+  ],
+  "requests": [
+    {
+      "id": "req-get-users",
+      "name": "Get All Users",
+      "method": "GET",
+      "url": "{{baseUrl}}/users",
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "type": "none",
+        "rawContent": "",
+        "formFields": []
+      },
+      "auth": {
+        "type": "noAuth",
+        "bearerToken": "",
+        "username": "",
+        "password": "",
+        "apiKeyName": "",
+        "apiKeyValue": "",
+        "apiKeyLocation": "header"
+      },
+      "description": "",
+      "parentFolderId": "users-folder"
+    },
+    {
+      "id": "req-get-user-1",
+      "name": "Get User by ID",
+      "method": "GET",
+      "url": "{{baseUrl}}/users/1",
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "type": "none",
+        "rawContent": "",
+        "formFields": []
+      },
+      "auth": {
+        "type": "noAuth",
+        "bearerToken": "",
+        "username": "",
+        "password": "",
+        "apiKeyName": "",
+        "apiKeyValue": "",
+        "apiKeyLocation": "header"
+      },
+      "description": "",
+      "parentFolderId": "users-folder"
+    },
+    {
+      "id": "req-get-posts",
+      "name": "Get Posts",
+      "method": "GET",
+      "url": "{{baseUrl}}/posts",
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "type": "none",
+        "rawContent": "",
+        "formFields": []
+      },
+      "auth": {
+        "type": "noAuth",
+        "bearerToken": "",
+        "username": "",
+        "password": "",
+        "apiKeyName": "",
+        "apiKeyValue": "",
+        "apiKeyLocation": "header"
+      },
+      "description": "",
+      "parentFolderId": "posts-folder"
+    }
+  ],
+  "gitConfig": {
+    "localPath": "/Users/tonmoy/Documents/HttpLab/git_repo",
+    "remoteUrl": "https://github.com/TonmoyBista/httpLabCollectionsAndData.git",
+    "branch": "main",
+    "gitUserName": "Tonmoy",
+    "gitUserEmail": "tonmoy.islam@bistasolutions.com",
+    "personalAccessToken": "",
+    "isConfigured": true,
+    "lastCommitHash": null,
+    "lastSyncTime": null,
+    "lastStatusMessage": null
+  },
+  "lastModified": "2026-09-30T17:31:14.529920"
+}
