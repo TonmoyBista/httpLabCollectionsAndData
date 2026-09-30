@@ -1,0 +1,150 @@
+{
+  "format": "postpilot-backup",
+  "version": 1,
+  "sensitive": true,
+  "notice": "This file contains secrets (variable values, tokens, passwords, API keys) in plain text. Keep it private.",
+  "exportedAt": "2026-09-30T13:12:23.553752Z",
+  "collections": [
+    {
+      "name": "user",
+      "variables": [],
+      "folders": [],
+      "requests": [
+        {
+          "folderId": null,
+          "name": "User",
+          "method": "get",
+          "url": "https://jsonplaceholder.typicode.com/users",
+          "headers": [],
+          "queryParams": [
+            {
+              "key": "dgdsfg",
+              "value": "sdfg",
+              "enabled": true
+            },
+            {
+              "key": "sdfg",
+              "value": "sdfg",
+              "enabled": true
+            }
+          ],
+          "body": {
+            "type": "none",
+            "rawContentType": "json",
+            "rawText": "",
+            "formFields": [],
+            "urlEncodedFields": [],
+            "graphqlQuery": "",
+            "graphqlVariables": "{}"
+          },
+          "auth": {
+            "type": "inherit",
+            "apiKeyName": "",
+            "apiKeyValue": "",
+            "apiKeyLocation": "header",
+            "bearerToken": "",
+            "basicUsername": "",
+            "basicPassword": "",
+            "awsAccessKey": "",
+            "awsSecretKey": "",
+            "awsRegion": "us-east-1",
+            "awsService": "execute-api",
+            "awsSessionToken": "",
+            "jwtSecret": "",
+            "jwtAlgorithm": "hs256",
+            "jwtPayload": "{}",
+            "jwtHeaderPrefix": "Bearer",
+            "oauth2GrantType": "clientCredentials",
+            "oauth2AccessTokenUrl": "",
+            "oauth2AuthorizationUrl": "",
+            "oauth2RedirectUri": "",
+            "oauth2ClientId": "",
+            "oauth2ClientSecret": "",
+            "oauth2ClientAuthentication": "basicHeader",
+            "oauth2Scope": "",
+            "oauth2Username": "",
+            "oauth2Password": "",
+            "oauth2Audience": "",
+            "oauth2AccessToken": "",
+            "oauth2RefreshToken": "",
+            "oauth2TokenExpiry": null
+          }
+        },
+        {
+          "folderId": null,
+          "name": "GET https://jsonplaceholder.typicode.com/users?dgdsfg=sdfg&sdfg=sdfg",
+          "method": "get",
+          "url": "https://jsonplaceholder.typicode.com/users?dgdsfg=sdfg&sdfg=sdfg",
+          "headers": [],
+          "queryParams": [],
+          "body": {
+            "type": "none",
+            "rawContentType": "json",
+            "rawText": "",
+            "formFields": [],
+            "urlEncodedFields": [],
+            "graphqlQuery": "",
+            "graphqlVariables": "{}"
+          },
+          "auth": {
+            "type": "inherit",
+            "apiKeyName": "",
+            "apiKeyValue": "",
+            "apiKeyLocation": "header",
+            "bearerToken": "",
+            "basicUsername": "",
+            "basicPassword": "",
+            "awsAccessKey": "",
+            "awsSecretKey": "",
+            "awsRegion": "us-east-1",
+            "awsService": "execute-api",
+            "awsSessionToken": "",
+            "jwtSecret": "",
+            "jwtAlgorithm": "hs256",
+            "jwtPayload": "{}",
+            "jwtHeaderPrefix": "Bearer",
+            "oauth2GrantType": "clientCredentials",
+            "oauth2AccessTokenUrl": "",
+            "oauth2AuthorizationUrl": "",
+            "oauth2RedirectUri": "",
+            "oauth2ClientId": "",
+            "oauth2ClientSecret": "",
+            "oauth2ClientAuthentication": "basicHeader",
+            "oauth2Scope": "",
+            "oauth2Username": "",
+            "oauth2Password": "",
+            "oauth2Audience": "",
+            "oauth2AccessToken": "",
+            "oauth2RefreshToken": "",
+            "oauth2TokenExpiry": null
+          }
+        }
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "name": "Test",
+      "variables": [
+        {
+          "key": "asdf",
+          "value": "asdf",
+          "secret": false,
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "globals": [],
+  "workplace": {
+    "id": "1df70392-d3cd-43dc-84ff-0cbd9da5f556",
+    "name": "FlowPros",
+    "folderPath": "/Users/tonmoy/Library/Containers/com.bista.postpilot/Data/Documents/PostPilot/Workplaces/FlowPros",
+    "gitRepoUrl": "https://github.com/TonmoyBista/httpLabCollectionsAndData",
+    "gitBranch": "dev2",
+    "gitToken": null,
+    "createdAt": "2026-09-30T12:38:44.559485Z",
+    "updatedAt": "2026-09-30T13:07:37.895264Z",
+    "lastSyncedAt": null
+  }
+}
