@@ -3,7 +3,7 @@
   "version": 1,
   "sensitive": true,
   "notice": "This file contains secrets (variable values, tokens, passwords, API keys) in plain text. Keep it private.",
-  "exportedAt": "2026-09-30T13:12:23.553752Z",
+  "exportedAt": "2026-09-30T13:13:00.060223Z",
   "collections": [
     {
       "name": "user",
@@ -19,12 +19,17 @@
           "queryParams": [
             {
               "key": "dgdsfg",
-              "value": "sdfg",
+              "value": "sdfgasdf",
               "enabled": true
             },
             {
               "key": "sdfg",
-              "value": "sdfg",
+              "value": "sdfgsfdsadf",
+              "enabled": true
+            },
+            {
+              "key": "asdf",
+              "value": "asdff",
               "enabled": true
             }
           ],
@@ -144,7 +149,7 @@
     "gitBranch": "dev2",
     "gitToken": null,
     "createdAt": "2026-09-30T12:38:44.559485Z",
-    "updatedAt": "2026-09-30T13:07:37.895264Z",
-    "lastSyncedAt": null
+    "updatedAt": "2026-09-30T13:12:25.489034Z",
+    "lastSyncedAt": "2026-09-30T13:12:25.487910Z"
   }
 }
