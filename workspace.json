@@ -1,0 +1,23 @@
+{
+  "format": "postpilot-backup",
+  "version": 2,
+  "sensitive": true,
+  "notice": "This file contains secrets (variable values, tokens, passwords, API keys) in plain text. Keep it private.",
+  "exportedAt": "2026-10-27T06:28:30.139291Z",
+  "collections": [],
+  "environments": [],
+  "globals": [],
+  "workplace": {
+    "id": "8e88cdc7-f4e5-4081-8a2c-630117381b35",
+    "name": "WMS",
+    "folderPath": "/Users/tonmoy/Documents/PostPilot/Workplaces/WMS",
+    "gitRepoUrl": "https://github.com/TonmoyBista/httpLabCollectionsAndData",
+    "gitBranch": "post_api",
+    "gitToken": null,
+    "createdAt": "2026-10-27T06:28:29.248343Z",
+    "updatedAt": "2026-10-27T06:28:29.248343Z",
+    "lastSyncedAt": null,
+    "lastSyncedSha": null,
+    "activeEnvironment": null
+  }
+}
