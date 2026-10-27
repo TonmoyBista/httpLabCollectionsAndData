@@ -3,8 +3,132 @@
   "version": 2,
   "sensitive": true,
   "notice": "This file contains secrets (variable values, tokens, passwords, API keys) in plain text. Keep it private.",
-  "exportedAt": "2026-10-27T06:28:30.139291Z",
-  "collections": [],
+  "exportedAt": "2026-10-27T06:32:53.992284Z",
+  "collections": [
+    {
+      "name": "USER",
+      "variables": [],
+      "folders": [],
+      "requests": [
+        {
+          "folderId": null,
+          "name": "posts",
+          "order": 0,
+          "method": "get",
+          "url": "https://jsonplaceholder.typicode.com/posts",
+          "headers": [],
+          "queryParams": [],
+          "body": {
+            "type": "formData",
+            "rawContentType": "json",
+            "rawText": "",
+            "formFields": [],
+            "urlEncodedFields": [],
+            "graphqlQuery": "",
+            "graphqlVariables": "{}"
+          },
+          "auth": {
+            "type": "inherit",
+            "apiKeyName": "",
+            "apiKeyValue": "",
+            "apiKeyLocation": "header",
+            "bearerToken": "",
+            "basicUsername": "",
+            "basicPassword": "",
+            "awsAccessKey": "",
+            "awsSecretKey": "",
+            "awsRegion": "us-east-1",
+            "awsService": "execute-api",
+            "awsSessionToken": "",
+            "jwtSecret": "",
+            "jwtAlgorithm": "hs256",
+            "jwtPayload": "{}",
+            "jwtHeaderPrefix": "Bearer",
+            "oauth2GrantType": "clientCredentials",
+            "oauth2AccessTokenUrl": "",
+            "oauth2AuthorizationUrl": "",
+            "oauth2RedirectUri": "",
+            "oauth2ClientId": "",
+            "oauth2ClientSecret": "",
+            "oauth2ClientAuthentication": "basicHeader",
+            "oauth2Scope": "",
+            "oauth2Username": "",
+            "oauth2Password": "",
+            "oauth2Audience": "",
+            "oauth2AccessToken": "",
+            "oauth2RefreshToken": "",
+            "oauth2TokenExpiry": null
+          }
+        },
+        {
+          "folderId": null,
+          "name": "users",
+          "order": 1,
+          "method": "get",
+          "url": "https://jsonplaceholder.typicode.com/users",
+          "headers": [],
+          "queryParams": [],
+          "body": {
+            "type": "formData",
+            "rawContentType": "json",
+            "rawText": "",
+            "formFields": [
+              {
+                "key": "",
+                "value": "",
+                "enabled": true
+              },
+              {
+                "key": "",
+                "value": "",
+                "enabled": true
+              },
+              {
+                "key": "",
+                "value": "",
+                "enabled": true
+              }
+            ],
+            "urlEncodedFields": [],
+            "graphqlQuery": "",
+            "graphqlVariables": "{}"
+          },
+          "auth": {
+            "type": "bearer",
+            "apiKeyName": "",
+            "apiKeyValue": "",
+            "apiKeyLocation": "header",
+            "bearerToken": "",
+            "basicUsername": "",
+            "basicPassword": "",
+            "awsAccessKey": "",
+            "awsSecretKey": "",
+            "awsRegion": "us-east-1",
+            "awsService": "execute-api",
+            "awsSessionToken": "",
+            "jwtSecret": "",
+            "jwtAlgorithm": "hs256",
+            "jwtPayload": "{}",
+            "jwtHeaderPrefix": "Bearer",
+            "oauth2GrantType": "clientCredentials",
+            "oauth2AccessTokenUrl": "",
+            "oauth2AuthorizationUrl": "",
+            "oauth2RedirectUri": "",
+            "oauth2ClientId": "",
+            "oauth2ClientSecret": "",
+            "oauth2ClientAuthentication": "basicHeader",
+            "oauth2Scope": "",
+            "oauth2Username": "",
+            "oauth2Password": "",
+            "oauth2Audience": "",
+            "oauth2AccessToken": "",
+            "oauth2RefreshToken": "",
+            "oauth2TokenExpiry": null
+          }
+        }
+      ]
+    }
+  ],
   "environments": [],
   "globals": [],
   "workplace": {
